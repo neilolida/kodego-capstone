@@ -1,0 +1,83 @@
+.login__container {
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__card {
+    width: 50%;
+    display: flex;
+    background-color: aliceblue;
+    border-radius:  15px;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.login__card-left{
+    flex: 1;
+    background: linear-gradient(rgba(39,11,96,0.5), rgba(39,11,96,0.5)), url(https://images.pexels.com/photos/1181371/pexels-photo-1181371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.login__card-left > h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.login__card-left > span{
+    font-size: 14px;
+}
+
+.login__card-left_button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: rebeccapurple;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*Login card right*/
+.login__card-right{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.login__card-right > h1{
+   color: #555;
+}
+
+.login__card-right > form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login__card-right > form > input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+}
+
+.login__card-right > form > button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #938eef;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 
