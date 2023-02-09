@@ -24,7 +24,11 @@ function App() {
 
         <div style={{display:'flex'}}>
           <LeftBar />
-          <Outlet />
+
+          <div style={{flex: 7}}>
+            <Outlet />
+          </div>
+          
           <RightBar />
         </div>
       </di>

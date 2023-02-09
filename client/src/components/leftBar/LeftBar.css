@@ -1,0 +1,62 @@
+.leftBar {
+    flex: 2;
+    position: sticky;
+    top: 55px;
+    height: calc(100vh - 55px); /*It is for sticky left 70px comes from the height of navbar also its padding*/
+    overflow: auto;
+    background-color: white;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.leftBar::-webkit-scrollbar{
+    display: none;
+}
+
+.leftBar__container{
+    padding: 20px;
+}
+
+hr{
+    margin: 20px 0px;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+}
+
+.leftBar__container-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftBar__container-menu_user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftBar__container-menu_user > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.leftBar__container-menu_user > span{
+    font-size: 14px;
+}
+
+.leftBar__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftBar__item > img{
+    width: 30px;
+}
+
+.leftBar__item > span{
+   font-size: 14px;
+}

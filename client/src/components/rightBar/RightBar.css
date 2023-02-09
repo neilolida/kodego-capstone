@@ -1,0 +1,87 @@
+.rightBar{
+    flex: 3;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 50px); /*It is for sticky left 70px comes from the height of navbar also its padding*/
+    overflow: scroll;
+    
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+
+.rightBar__container{
+    padding: 20px;
+    
+}
+
+.rightBar__container-item{
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.rightBar__container-item > span{
+    color: gray;
+}
+
+.rightBar__container-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.rightBar__container-user_userInfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.rightBar__container-user_userInfo > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightBar__container-user_userInfo > span{
+    font-weight: 500;
+    color: black;
+}
+
+
+.rightBar__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightBar__buttons > button{
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.rightBar__buttons-button_accept{
+    background-color: #5271ff;
+}
+
+.rightBar__buttons-button_remove{
+    background-color: #f0544f;
+}
+
+.rightBar__container-user_online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}

@@ -4,7 +4,33 @@ import './Home.css'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+      <h1>home</h1>
+    </div>
   )
 }
 

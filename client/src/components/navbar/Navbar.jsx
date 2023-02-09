@@ -1,12 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
-import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
+
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 import { Link } from 'react-router-dom';
@@ -17,20 +13,19 @@ function Navbar() {
 
         <div className="navbar__container-left">
             <Link to='/' style={{ textDecoration:'none' }}>
-                <span className='navbar__container-left_logo'>ProgMed</span>
-            </Link>
-            <HomeOutlinedIcon />
-            <DarkModeOutlinedIcon />
-            <GridViewOutlinedIcon />
+                <span className='navbar__container-left_logo'>Hello Friends</span>
+            </Link>           
+        </div>
 
-            <div className="navbar__container-left_search">
+        <div>
+
+        <div className="navbar__container-left_search">
                 <SearchOutlinedIcon />
-                <input type="text" placeholder='Search...'/>
-            </div>   
+                <input type="text" placeholder='Search...' className='input'/>
+            </div>
         </div>
 
         <div className="navbar__container-right">
-            <PersonOutlineOutlinedIcon />
             <EmailOutlinedIcon />
             <NotificationsOutlinedIcon />
 
