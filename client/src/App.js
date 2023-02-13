@@ -12,10 +12,12 @@ import {
   Outlet,
   Navigate,
 } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from './components/context/authContext';
 
 function App() {
   
-  const currentUser = true;
+  const {currentUser} = useContext(AuthContext);
 
   const Layout = () => {
     return(
