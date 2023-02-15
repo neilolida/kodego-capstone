@@ -10,7 +10,7 @@ import Gaming from '../../assets/7.png';
 import Gallery from '../../assets/8.png';
 import Videos from '../../assets/9.png';
 import Messages from '../../assets/10.png';
-import { AuthContext } from '../context/authContext';
+import { AuthContext } from '../context/AuthContext';
 
 function LeftBar() {
   const { currentUser } = useContext(AuthContext);

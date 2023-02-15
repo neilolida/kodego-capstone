@@ -8,12 +8,11 @@ import Profile from './pages/profile/Profile';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
   Outlet,
   Navigate,
 } from 'react-router-dom';
 import { useContext } from 'react';
-import { AuthContext } from './components/context/authContext';
+import { AuthContext } from './components/context/AuthContext';
 
 function App() {
   

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom'
-import { AuthContext } from '../../components/context/authContext'
+import { AuthContext } from '../../components/context/AuthContext'
 
 function Login() {
 
