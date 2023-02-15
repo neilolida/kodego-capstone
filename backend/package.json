@@ -2,12 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend for my social app",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Neil Olida",
   "license": "ISC",
+  
   "dependencies": {
     "express": "^4.18.2",
     "mysql": "^2.18.1",
@@ -22,4 +24,7 @@
     "url": "https://github.com/neilolida/kodego-capstone/issues"
   },
   "homepage": "https://github.com/neilolida/kodego-capstone#readme"
+
+  
 }
+
